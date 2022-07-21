@@ -92,23 +92,23 @@ function Header(props) {
             <li>
               <NavLink
                 className="ec"
-                to="/education"
+                to="/accomplishments"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Accomplishments
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="xp"
-                to="/experience"
+                to="/internships"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience
+                Internships
               </NavLink>
             </li>
             <li>

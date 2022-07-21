@@ -36,7 +36,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path="/internships"
               exact
               render={(props) => (
                 <Experience
@@ -47,7 +47,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/accomplishments"
               render={(props) => (
                 <Education
                   {...props}
