@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Nikhil Haspe",
   subTitle: "A Computer Science Graduate. Always learning 🔥.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://docs.google.com/document/d/1spTelHlh6EULzqt2N8aiRvnNI4wvxnbvo-91bhMzvLE/edit?usp=sharing",
   mail: "mailto:nikhilhaspe5220@gmail.com",
 };
 
