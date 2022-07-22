@@ -203,68 +203,65 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "ReactJS Zero to Mastery",
+      subtitle: "SoloLearn",
+      logo_path: "react.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+        "https://www.sololearn.com/Certificate/1097-26458851/jpg/",
+      alt_name: "ReactJS Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+      title: "Python",
+      subtitle: "HackerRank",
+      logo_path: "python.png",
+      certificate_link: "https://www.hackerrank.com/certificates/2a93f1990f40",
+      alt_name: "Python Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      color_code: "#47A048",
+      title: "Java",
+      subtitle: "HackerRank",
+      logo_path: "java.png",
+      certificate_link: "https://www.hackerrank.com/certificates/60d34fa506ae",
+      alt_name: "Java Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
+      title: "HTML",
+      subtitle: "LinkedIn Learning",
+      logo_path: "html.png",
       certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
+        "https://www.linkedin.com/learning/certificates/9a7970ac256e6608a155e8abdc03035ee1c6d68a18bae0092c193856431c5e5f?trk=share_certificate",
+      alt_name: "HTML Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
+      title: "CSS",
+      subtitle: "LinkedIn Learning",
+      logo_path: "css.png",
       certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
+        "https://www.linkedin.com/learning/certificates/c2b0b023cdb297788b8f1465f38ff42eed2b97eaead73206e3f4f140c9d16089?trk=share_certificate",
+      alt_name: "CSS Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
+      title: "JavaScript",
+      subtitle: "SoloLearn",
+      logo_path: "js.png",
       certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
+        "https://www.sololearn.com/certificates/course/en/26458851/1024/landscape/png",
+      alt_name: "JavaScript Course",
+      color_code: "#1d1d1d",
     },
     {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
+      title: "RDBMS SQl",
+      subtitle: "SoloLearn",
+      logo_path: "sql.png",
       certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      color_code: "#fffbf3",
+        "https://www.sololearn.com/certificates/course/en/26458851/1060/landscape/png",
+      alt_name: "MySql Database Query Language",
+      color_code: "#1d1d1d",
     },
   ],
 };
@@ -302,7 +299,7 @@ const projects = {
       name: "whatsapp-clone-mern",
       url: "https://github.com/Nikhilhaspe/whatsapp-clone-mern",
       description:
-        "This is Whats App clone. Create accunt using Google Authentication. Create Rooms, Using Room link add friends and chat, Messages are stored in Mongo DB.",
+        "This is Whats App clone. Create account using Google Authentication. Create Rooms, Using Room link add friends and chat, Messages are stored in Mongo DB.",
       languages: [
         {
           name: "HTML5",
@@ -359,8 +356,20 @@ const projects = {
         "A Zoom UI like online real-time meeting app. Realtime Video and Audio conference. UI Built using ejs end express layouts.",
       languages: [
         {
-          name: "Node Js",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs",
         },
       ],
     },
